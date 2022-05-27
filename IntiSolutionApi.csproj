@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\AuthGroup.cs" />
+    <Compile Remove="Entities\AuthGroup1.cs" />
+    <Compile Remove="Entities\AuthGroupPermission.cs" />
+    <Compile Remove="Entities\AuthGroupPermission1.cs" />
+    <Compile Remove="Entities\AuthPermission.cs" />
+    <Compile Remove="Entities\AuthPermission1.cs" />
+    <Compile Remove="Entities\AuthUser.cs" />
+    <Compile Remove="Entities\AuthUser1.cs" />
+    <Compile Remove="Entities\AuthUserGroup.cs" />
+    <Compile Remove="Entities\AuthUserGroup1.cs" />
+    <Compile Remove="Entities\AuthUserUserPermission.cs" />
+    <Compile Remove="Entities\AuthUserUserPermission1.cs" />
+    <Compile Remove="Entities\Customer1.cs" />
+    <Compile Remove="Entities\Customer2.cs" />
+    <Compile Remove="Entities\Customer3.cs" />
+    <Compile Remove="Entities\Customer4.cs" />
+    <Compile Remove="Entities\Customer5.cs" />
+    <Compile Remove="Entities\DjangoAdminLog.cs" />
+    <Compile Remove="Entities\DjangoAdminLog1.cs" />
+    <Compile Remove="Entities\DjangoContentType.cs" />
+    <Compile Remove="Entities\DjangoContentType1.cs" />
+    <Compile Remove="Entities\DjangoMigration.cs" />
+    <Compile Remove="Entities\DjangoMigration1.cs" />
+    <Compile Remove="Entities\DjangoSession.cs" />
+    <Compile Remove="Entities\DjangoSession1.cs" />
+    <Compile Remove="Entities\Order1.cs" />
+    <Compile Remove="Entities\Order2.cs" />
+    <Compile Remove="Entities\Order3.cs" />
+    <Compile Remove="Entities\Order4.cs" />
+    <Compile Remove="Entities\Order5.cs" />
+    <Compile Remove="Entities\OrderDetail1.cs" />
+    <Compile Remove="Entities\OrderDetail2.cs" />
+    <Compile Remove="Entities\OrderDetail3.cs" />
+    <Compile Remove="Entities\OrderDetail4.cs" />
+    <Compile Remove="Entities\OrderDetail5.cs" />
+    <Compile Remove="Entities\Product1.cs" />
+    <Compile Remove="Entities\Product2.cs" />
+    <Compile Remove="Entities\Product3.cs" />
+    <Compile Remove="Entities\Product4.cs" />
+    <Compile Remove="Entities\Product5.cs" />
+    <Compile Remove="Entities\SeguridadModulo.cs" />
+    <Compile Remove="Entities\SeguridadModulogrupo.cs" />
+    <Compile Remove="Entities\SeguridadModulogrupoGrupo.cs" />
+    <Compile Remove="Entities\SeguridadModulogrupoModulo.cs" />
+    <Compile Remove="Entities\StoreCustomer.cs" />
+    <Compile Remove="Entities\StoreOrder.cs" />
+    <Compile Remove="Entities\StoreOrderDetail.cs" />
+    <Compile Remove="Entities\StoreProduct.cs" />
+    <Compile Remove="Entities\trainingContext.cs" />
+    <Compile Remove="Entities\User1.cs" />
+    <Compile Remove="Entities\User2.cs" />
+    <Compile Remove="Entities\User3.cs" />
+    <Compile Remove="Entities\User4.cs" />
+    <Compile Remove="Entities\User5.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
